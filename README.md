@@ -1,6 +1,6 @@
 # SeGaLog: Global Supply Chain Optimization via Mixed-Integer Programming
 
-**€96M profit over 3 periods. 27.7% net margin. 100% demand satisfaction.**
+**€96M profit over 3 periods (Each period represents one year). 27.7% net margin. 100% demand satisfaction.**
 
 ## Results
 
