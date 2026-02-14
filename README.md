@@ -171,17 +171,6 @@ Integrating CO₂ as a cost (€X/ton) rather than a separate objective creates 
 
 ---
 
-## Future Work
-
-- [ ] **Stochastic programming:** Two-stage model with demand scenarios (5-10 scenarios)
-- [ ] **Rolling horizon:** Re-optimize at each period with updated forecasts (T+1→T+4)
-- [ ] **Multi-modal transport:** Separate sea/air/rail with cost-speed-emissions trade-offs
-- [ ] **Inventory management:** Relax JIT assumption, add warehousing with holding costs
-- [ ] **Real-time data integration:** 2026 customs tariffs, energy mix updates, geopolitical risk indices
-- [ ] **Pareto frontier analysis:** Explicit bi-objective (cost vs CO₂) with ε-constraint method
-
----
-
 ## Complexity Analysis
 
 **Variables:** 864 (486 integer, 378 continuous)  
