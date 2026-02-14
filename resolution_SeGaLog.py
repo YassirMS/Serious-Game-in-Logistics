@@ -573,7 +573,7 @@ def afficher(sol, data, demand_mode='mixed'):
                     d = pa['D_pic'][(zj,pp)] if t == 0 else pa['D_hat'][(zj,pp)]
                 rev += d * pa['Prix_vente'][pp]
         total_rev += rev
-        print(f"\n    💰 CA période T+{t}: {rev:,.0f} €")
+        print(f"\n   CA période T+{t}: {rev:,.0f} €")
 
     # Bilan
     print(f"\n{'═'*90}")
@@ -610,7 +610,7 @@ def verifier_demande(sol, data, demand_mode='mixed'):
                     print(f" T+{t} {zj} {pp}: reçu={recu:,.0f} < demande={D:,.0f}")
                     ok = False
     if ok:
-        print("  ✅ Toutes les demandes sont satisfaites !")
+        print("  Toutes les demandes sont satisfaites !")
     return ok
 
 
@@ -631,7 +631,7 @@ def verifier_capacite(sol, data):
                 print(f" T+{t} {zi}: utilisé={cap_used:,.0f} > dispo={cap_avail:,.0f}")
                 ok = False
     if ok:
-        print("  ✅ Toutes les capacités respectées !")
+        print("  Toutes les capacités respectées !")
     return ok
 
 
