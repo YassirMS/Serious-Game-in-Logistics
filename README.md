@@ -42,6 +42,11 @@ Global industrial company (SeGaLog) faces multi-continental supply chain plannin
 
 Mixed-Integer Linear Program (MILP) minimizing total cost: production + transport + customs + factory operations + CO₂ emissions.
 
+## How to Run
+pip install -r requirements.txt;
+
+python3 resolution_SeGaLog.py 
+
 ### Mathematical Model
 
 **Decision variables (864 total):**
